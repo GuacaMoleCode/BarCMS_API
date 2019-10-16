@@ -1,0 +1,41 @@
+{
+  "connection": "default",
+  "collectionName": "sliderslides",
+  "info": {
+    "name": "sliderslide",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": true
+    },
+    "Button": {
+      "model": "button"
+    },
+    "SliderBlock": {
+      "model": "sliderblocks",
+      "via": "sliderslides"
+    }
+  }
+}

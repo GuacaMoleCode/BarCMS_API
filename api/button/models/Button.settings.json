@@ -1,0 +1,27 @@
+{
+  "connection": "default",
+  "collectionName": "knops",
+  "info": {
+    "name": "button",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "Text": {
+      "type": "string"
+    },
+    "Visible": {
+      "type": "boolean"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
