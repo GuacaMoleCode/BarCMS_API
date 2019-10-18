@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/livefeedpages",
+      "handler": "Livefeedpage.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/livefeedpages/count",
+      "handler": "Livefeedpage.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/livefeedpages/:id",
+      "handler": "Livefeedpage.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/livefeedpages",
+      "handler": "Livefeedpage.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/livefeedpages/:id",
+      "handler": "Livefeedpage.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/livefeedpages/:id",
+      "handler": "Livefeedpage.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "connection": "default",
+  "collectionName": "livefeedpages",
+  "info": {
+    "name": "livefeedpage",
+    "description": "Een slide voor de livefeed"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "Description": {
+      "required": true,
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "Subtext": {
+      "type": "string"
+    },
+    "BackgroundImage": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    }
+  }
+}
