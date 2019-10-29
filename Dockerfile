@@ -1,4 +1,5 @@
-FROM strapi/base
+# Build
+FROM strapi/base as build-stage
 
 WORKDIR /srv/app
 
