@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/pageblocks",
-      "handler": "Pageblock.find",
+      "path": "/sliderpaginas",
+      "handler": "Sliderpagina.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/pageblocks/count",
-      "handler": "Pageblock.count",
+      "path": "/sliderpaginas/count",
+      "handler": "Sliderpagina.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/pageblocks/:id",
-      "handler": "Pageblock.findOne",
+      "path": "/sliderpaginas/:id",
+      "handler": "Sliderpagina.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/pageblocks",
-      "handler": "Pageblock.create",
+      "path": "/sliderpaginas",
+      "handler": "Sliderpagina.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/pageblocks/:id",
-      "handler": "Pageblock.update",
+      "path": "/sliderpaginas/:id",
+      "handler": "Sliderpagina.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/pageblocks/:id",
-      "handler": "Pageblock.delete",
+      "path": "/sliderpaginas/:id",
+      "handler": "Sliderpagina.delete",
       "config": {
         "policies": []
       }

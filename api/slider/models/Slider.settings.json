@@ -1,8 +1,8 @@
 {
   "connection": "default",
-  "collectionName": "knops",
+  "collectionName": "sliders",
   "info": {
-    "name": "button",
+    "name": "slider",
     "description": ""
   },
   "options": {
@@ -14,14 +14,11 @@
     "comment": ""
   },
   "attributes": {
-    "Text": {
-      "type": "string"
-    },
-    "Visible": {
+    "Zichtbaar": {
       "type": "boolean"
     },
-    "link": {
-      "type": "string"
+    "sliderpaginas": {
+      "collection": "sliderpagina"
     }
   }
 }

@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "sliderpaginas",
+  "info": {
+    "name": "sliderpagina",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "Titel": {
+      "type": "string"
+    },
+    "Subtitel": {
+      "type": "string"
+    },
+    "Beschrijving": {
+      "type": "string"
+    },
+    "Achtergrond": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    }
+  }
+}

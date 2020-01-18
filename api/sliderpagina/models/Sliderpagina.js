@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Lifecycle callbacks for the `Pageblocktype` model.
+ * Lifecycle callbacks for the `Sliderpagina` model.
  */
 
 module.exports = {
