@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Lifecycle callbacks for the `Sliderpagina` model.
+ * Lifecycle callbacks for the `Siteconfiguration` model.
  */
 
 module.exports = {

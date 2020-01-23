@@ -14,20 +14,16 @@
     "comment": ""
   },
   "attributes": {
-    "Description": {
-      "required": true,
+    "Titel": {
       "type": "string"
     },
-    "Title": {
+    "Subtitel": {
       "type": "string"
     },
-    "Subtitle": {
+    "Beschrijving": {
       "type": "string"
     },
-    "Subtext": {
-      "type": "string"
-    },
-    "BackgroundImage": {
+    "Achtergrond": {
       "model": "file",
       "via": "related",
       "plugin": "upload"

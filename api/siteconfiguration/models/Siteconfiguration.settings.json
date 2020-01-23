@@ -1,0 +1,42 @@
+{
+  "connection": "default",
+  "collectionName": "siteconfigurations",
+  "info": {
+    "name": "siteconfiguration",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "Configuratie_Beschrijving": {
+      "type": "string"
+    },
+    "HeaderSlider_Zichtbaar": {
+      "type": "boolean"
+    },
+    "OverOns_Zichtbaar": {
+      "type": "boolean"
+    },
+    "Menu_Zichtbaar": {
+      "type": "boolean"
+    },
+    "Gallerij_Zichtbaar": {
+      "type": "boolean"
+    },
+    "Personeel_Zichtbaar": {
+      "type": "boolean"
+    },
+    "Contact_Zichtbaar": {
+      "type": "boolean"
+    },
+    "LiveFeed_Aan": {
+      "type": "boolean"
+    }
+  }
+}

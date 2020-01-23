@@ -1,0 +1,14 @@
+version: '3.5'
+
+services:
+  barCMS-API:
+    container_name: barCMS-API
+    env_file:
+      - ./dev.env
+    ports:
+      - "5000:80"
+    networks:
+      - barwebsite-network
+
+networks:
+  barwebsite-network:
