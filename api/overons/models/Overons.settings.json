@@ -1,0 +1,35 @@
+{
+  "connection": "default",
+  "collectionName": "overons",
+  "info": {
+    "name": "overons",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "Configuratie_Beschrijving": {
+      "type": "string"
+    },
+    "Titel": {
+      "type": "string"
+    },
+    "Subtitel": {
+      "type": "string"
+    },
+    "Foto_Links": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "Tekst_Rechts": {
+      "type": "richtext"
+    }
+  }
+}

@@ -37,6 +37,9 @@
     },
     "LiveFeed_Aan": {
       "type": "boolean"
+    },
+    "Counter_Zichtbaar": {
+      "type": "boolean"
     }
   }
 }
