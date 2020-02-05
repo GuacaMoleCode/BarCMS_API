@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gallerijs",
+      "handler": "Gallerij.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gallerijs/count",
+      "handler": "Gallerij.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gallerijs/:id",
+      "handler": "Gallerij.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/gallerijs",
+      "handler": "Gallerij.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gallerijs/:id",
+      "handler": "Gallerij.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gallerijs/:id",
+      "handler": "Gallerij.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

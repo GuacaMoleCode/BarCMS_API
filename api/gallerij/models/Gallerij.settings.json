@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "gallerijs",
+  "info": {
+    "name": "gallerij",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "Titel": {
+      "type": "string"
+    },
+    "Beschrijving": {
+      "type": "string"
+    },
+    "Afbeeldingen": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload"
+    }
+  }
+}
