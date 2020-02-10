@@ -1,0 +1,2 @@
+docker build . -t cms-barwebsite:latest
+docker-compose up

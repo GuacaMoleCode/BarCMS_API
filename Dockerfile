@@ -4,16 +4,16 @@ FROM strapi/base as build-stage
 WORKDIR /srv/app
 
 COPY ./package.json ./
-COPY ./yarn.lock ./
+COPY ./package-lock.json ./
 
-RUN yarn install
+RUN npm install
 
 COPY . .
 
-RUN yarn build
+RUN npm run-script build --prod
 
 EXPOSE 1337
 
 ENV NODE_ENV production
 
-CMD ["yarn", "start"]
+CMD ["npm", "start", "--prod"]

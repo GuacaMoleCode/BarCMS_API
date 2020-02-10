@@ -1,12 +1,11 @@
 version: '3.5'
 
 services:
-  barCMS-API:
-    container_name: barCMS-API
-    env_file:
-      - ./dev.env
+  cms-barwebsite:
+    container_name: cms-barwebsite
+    image: cms-barwebsite:latest
     ports:
-      - "5000:80"
+      - "1337:1337"
     networks:
       - barwebsite-network
 
